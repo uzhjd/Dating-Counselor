@@ -5,7 +5,7 @@ import os
 from PIL import Image
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 img = Image.open('loveCon.png')
 client = OpenAI()
 
