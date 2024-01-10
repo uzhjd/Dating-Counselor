@@ -6,7 +6,7 @@ from PIL import Image
 
 
 os.environ["OPENAI_API_KEY"] = ""
-img = Image.open('loveCon.png')
+img = Image.open('image/loveCon.png')
 client = OpenAI()
 
 st.title("러뷰!~ 연애 상담사 💗스위릐💗")
